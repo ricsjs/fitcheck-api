@@ -12,7 +12,7 @@ interface AuthenticateServiceResponse {
     user: User
 }
 
-export class Authenticate {
+export class AuthenticateService {
     constructor(
         private usersRepository: UsersRepository
     ) {}
