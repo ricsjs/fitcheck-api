@@ -24,7 +24,7 @@ describe('Register Service', () => {
 
         const { user } = await registerService.handle({
             name: 'Ricardo',
-            email: 'ricfilho00000007@gmail.com',
+            email: 'ricfilho007@gmail.com',
             password: '123456'
         })
 
