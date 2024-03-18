@@ -1,9 +1,6 @@
 import { CheckIn } from "@prisma/client";
 import { CheckInsRepository } from "@/repositories/check-ins-repository";
 import { ResourceNotFoundError } from "./errors/resource-not-found-errors";
-import { getDistanceBetweenCoordinates } from "@/utils/get-distance-between-coordinates";
-import { MaxNumberOfCheckInsError } from "./errors/max-number-of-check-ins-error";
-import { MaxDistanceError } from "./errors/max-distance-error";
 import dayjs from "dayjs";
 import { LateCheckInValidationError } from "./errors/late-check-in-validation-error";
 
